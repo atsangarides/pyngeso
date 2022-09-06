@@ -17,6 +17,10 @@ api_resource_ids: Dict[str, Dict[str, str]] = {
         "id": "cda26f27-4bb6-4632-9fb5-2d029ca605e1",
         "url": "https://data.nationalgrideso.com/demand/2-day-ahead-demand-forecast/r/2_day_ahead_demand_forecast",
     },
+    "historic-2-14-days-ahead-demand-forecast": {
+        "id": "4dd712a2-ee2c-455d-a9c0-9d3564c80fa0",
+        "url": "https://data.nationalgrideso.com/demand/2-14-days-ahead-national-demand-forecast/r/historic_2-14_day_ahead_demand_forecasts",
+    },
     "historic-day-ahead-wind-forecast": {
         "id": "7524ec65-f782-4258-aaf8-5b926c17b966",
         "url": "https://data.nationalgrideso.com/demand/day-ahead-wind-forecast/r/historic_day_ahead_wind_forecasts",
@@ -24,6 +28,10 @@ api_resource_ids: Dict[str, Dict[str, str]] = {
     "day-ahead-wind-forecast": {
         "id": "b2f03146-f05d-4824-a663-3a4f36090c71",
         "url": "https://data.nationalgrideso.com/demand/day-ahead-wind-forecast/r/day_ahead_wind_forecast",
+    },
+    "14-days-ahead-wind-forecast": {
+        "id": "93c3048e-1dab-4057-a2a9-417540583929",
+        "url": "https://data.nationalgrideso.com/demand/14-days-ahead-wind-forecasts/r/14_days_ahead_wind_forecast",
     },
     "embedded-solar-and-wind": {
         "id": "db6c038f-98af-4570-ab60-24d71ebd0ae5",
