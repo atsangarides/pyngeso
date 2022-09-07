@@ -159,8 +159,8 @@ api_resource_ids: Dict[str, Dict[str, str]] = {
     },
     "transmission-entry-capacity-tec-register": {
         "id": "17becbab-e3e8-473f-b303-3806f43a6a10",
-        "url": "https://data.nationalgrideso.com/connection-registers/transmission-entry-capacity-tec-register/r/tec_register"
-    }
+        "url": "https://data.nationalgrideso.com/connection-registers/transmission-entry-capacity-tec-register/r/tec_register",
+    },
 }
 
 file_resource_ids: Dict[str, Dict[str, str]] = {
