@@ -109,6 +109,10 @@ api_resource_ids: Dict[str, Dict[str, str]] = {
         "id": "d5c3b48a-a0a9-4d57-a02a-ac0af09a6298",
         "url": "https://data.nationalgrideso.com/ancillary-services/dynamic-containment-4-day-forecast/r/dynamic_containment_4_day_forecast_-_history",
     },
+    "dc-dr-dm-linear-orders": {
+        "id": "26aefbcc-fce0-403f-80e1-4a26af3fe84b",
+        "url": "https://data.nationalgrideso.com/ancillary-services/dynamic-containment-data/r/dc_dr_dm_linear_orders_master_data_2021-2023",
+    },
     "historic-frequency-data-jan22": {
         "id": "43000c20-1208-4ca7-a419-712c7a1d375c",
         "url": "https://data.nationalgrideso.com/system/system-frequency-data/r/january_2022_-_historic_frequency_data",
