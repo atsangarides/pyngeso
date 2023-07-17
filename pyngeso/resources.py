@@ -101,6 +101,14 @@ api_resource_ids: Dict[str, Dict[str, str]] = {
         "id": "888e5029-f786-41d2-bc15-cbfd1d285e96",
         "url": "https://data.nationalgrideso.com/ancillary-services/dynamic-containment-data/r/dc_results_summary_master_data_2021-2022",
     },
+    "dc-dr-dm-block-orders": {
+        "id": "6fd8e042-be27-4c67-ad59-5acdd2a7b0fd",
+        "url": "https://data.nationalgrideso.com/ancillary-services/dynamic-containment-data/r/dc,_dr_&_dm_block_orders_master_data_2021-2022",
+    },
+    "dc-volume-forecast": {
+        "id": "d5c3b48a-a0a9-4d57-a02a-ac0af09a6298",
+        "url": "https://data.nationalgrideso.com/ancillary-services/dynamic-containment-4-day-forecast/r/dynamic_containment_4_day_forecast_-_history",
+    },
     "historic-frequency-data-jan22": {
         "id": "43000c20-1208-4ca7-a419-712c7a1d375c",
         "url": "https://data.nationalgrideso.com/system/system-frequency-data/r/january_2022_-_historic_frequency_data",
