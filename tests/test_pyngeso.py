@@ -264,6 +264,24 @@ def test_dcmr_block_orders():
 
 
 @pytest.mark.vcr
+def test_dcmr_linear_orders():
+    date_col = "DeliveryStart"
+    start_date = date(2022, 5, 16)
+    end_date = date(2022, 5, 17)
+    client = NgEso("dc-dr-dm-linear-orders")
+    r = client.query(date_col=date_col, start_date=start_date, end_date=end_date,
+                     filters=[])
+
+    assert isinstance(r, bytes)
+    r_dict = json.loads(r)
+    records = r_dict.get("result").get("records")
+    assert isinstance(records, list)
+    assert len(records) > 0
+    unique_target_datetimes = set([record.get(date_col) for record in records])
+    assert len(unique_target_datetimes) == 6
+
+
+@pytest.mark.vcr
 @pytest.mark.parametrize(
     "month, year",
     [
