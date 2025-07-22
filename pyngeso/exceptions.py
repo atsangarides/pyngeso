@@ -1,2 +1,2 @@
-class UnsuccessfulRequest(Exception):
+class UnsuccessfulRequestError(Exception):
     pass
